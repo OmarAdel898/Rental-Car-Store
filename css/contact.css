@@ -1,0 +1,31 @@
+@import url("fonts.css");
+:root{
+    --light-green: #adf1d2;
+    --primary-blue:#3C43ED;
+    --secondry:#2f3238;
+}
+
+
+.home-c{
+    background-image: url("../img/contact-bg.jpeg");
+    background-size: cover;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+}
+.map-w{
+    background-image: url(../img/bg-map.jpeg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map-w .position-img{
+    width: 8%;
+    min-width: 130px;
+    padding-left: 40px ;
+}

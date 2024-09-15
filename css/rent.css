@@ -1,0 +1,58 @@
+@import url("fonts.css");
+:root{
+    --light-green: #adf1d2;
+    --primary-blue:#3C43ED;
+    --secondry:#2f3238;
+}
+
+
+.home-s{
+    background-image: url("../img/shop-bg.jpeg");
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+}
+.products .slide-card{
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 15px;
+    transition: all .3s linear;
+    border: 1px solid #e1e1e1;
+}
+.products .slide-card:hover{
+    border: 2px solid var(--primary-blue);
+}
+.dro .dropdown .btn{
+    background-color: #ffffff;
+    color: #8f8f8f;
+    padding: 11px 10px;
+    font-family: "regular";
+    font-size: 15px;
+    height: 40px;
+    width: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}  
+.dro .dropdown .btn:focus{
+    color: #2f3238;
+} 
+.dro .dropdown .dropdown-menu{
+    width: 275px;
+}
+.dro .dropdown .dropdown-menu .dropdown-item{
+    color: #8f8f8f;
+    font-family: "regular";
+    font-size: 15px;
+}
+.dro- .dropdown .btn{
+    width: 70px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}  
